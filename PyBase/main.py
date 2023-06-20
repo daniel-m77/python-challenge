@@ -6,3 +6,4 @@ csvpath = os.path.join('..', 'python-challenge', 'PyBank', 'Resources', 'budget_
 with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     print (csvreader)
+
